@@ -1,0 +1,18 @@
+edition: 1.0.0
+name: functionApp
+access: default
+
+services:
+  laravelExample:
+    component: devsapp/laravel
+    props:
+      region: cn-shenzhen
+      service:
+        name: serverless-devs-laravel
+        description: Serverless Devs示例程序
+      function:
+        name: laravel
+        description: laravel项目
+        memorySize: 256
+        code:
+          src: ./code
