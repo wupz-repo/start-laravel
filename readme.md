@@ -2,7 +2,7 @@
 
 ## 本地快速体验
 
-通过该应用，您可以简单快速的创建一个 Django 框架到阿里云函数计算服务。
+通过该应用，您可以简单快速的创建一个 Laravel 框架到阿里云函数计算服务。
 
 - 下载命令行工具：`npm install -g @serverless-devs/s`
 - 初始化一个模版项目：`s init devsapp/start-laravel`
